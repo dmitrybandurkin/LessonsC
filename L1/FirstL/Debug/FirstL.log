@@ -1,0 +1,7 @@
+﻿  Main.c
+E:\Lessons\lesson C\FirstL\FirstL\Main.c(47,32): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+E:\Lessons\lesson C\FirstL\FirstL\Main.c(48,32): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+E:\Lessons\lesson C\FirstL\FirstL\Main.c(62,12): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+E:\Lessons\lesson C\FirstL\FirstL\Main.c(106,17): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+E:\Lessons\lesson C\FirstL\FirstL\Main.c(114,15): warning C4305: функция: усечение из "double" в "float"
+  FirstL.vcxproj -> E:\Lessons\lesson C\FirstL\Debug\FirstL.exe
