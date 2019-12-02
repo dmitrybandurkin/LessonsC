@@ -111,6 +111,35 @@ void Automorf(int a)
 	}
 }
 
+void mean() //исправленный код
+{
+	int counter = 0;
+	float sum = 0;
+	int in;
+
+	for(;;) //while(true) почему-то не работает
+	{
+		scanf_s("%d", &in);
+		if (in == -1) break;
+		sum += in;
+		counter++;
+	}
+
+	//do {
+	//	scanf("%d", &in);
+	//	if(in == -1) break; //very bad code
+	//	sum += in;
+	//	counter++;
+	//} while (in != -1);
+
+	if (counter != 0) {
+		printf("a = %.2f\n", (float)(sum / counter));
+	}
+	else {
+		printf("No input");
+	}
+}
+
 int main()
 {
 	Mass(67, 1.93);
@@ -121,5 +150,6 @@ int main()
 	Age(111);
 	Chess(2, 3, 5, 7);
 	Automorf(100000);
+	mean();
 	return 0;
 }
